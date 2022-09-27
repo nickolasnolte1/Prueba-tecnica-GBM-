@@ -11,3 +11,4 @@ for i in range(t):
     print("El número mínimo de saltos es: ")
     print(jumps) # imprimir el número mínimo de saltos
 
+
