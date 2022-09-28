@@ -1,7 +1,5 @@
 ## Pasos para correr el código
 
-<!-- TABLE OF CONTENTS -->
-<details>
   <summary>En Terminal</summary>
   <ol>
     <li>
