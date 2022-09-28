@@ -35,6 +35,24 @@
   </ol>
 </details>
 
+<details>
+  <summary>En un interpretador Online</summary>
+  <ol>
+    <li>
+      <a>Descargar toda la carpeta del ejercicio, o bien solo el archivo .py que se desea correr y cargarlo en el interpretador online</a>
+      <ul>
+        <li><a>También se puede copiar cada archivo y copiarlo en el interpretador</a></li>
+      </ul>
+    </li>
+    <li>
+      <a>Abrir el archivo en el IDE (Ej. Visual Studio)<a/>
+    </li>
+    <li>
+      <a>Correrlo, presionando el botón de "RUN"</a>
+    </li>
+  </ol>
+</details>
+
 
 
 ~ NOTA: si se desan correr las pruebas unitarias, **ES NECESARIO** descargar la carpeta completa del ejercicio y ejecutar los archivos con las pruebas de la misma manera que se indica arriba.  
