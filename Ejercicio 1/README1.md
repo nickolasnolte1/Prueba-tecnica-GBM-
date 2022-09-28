@@ -5,7 +5,7 @@
   <summary>En Terminal</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a>Descargar el archivo toda la carpeta con el ejercicio, o bien solo el archivo .py</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
