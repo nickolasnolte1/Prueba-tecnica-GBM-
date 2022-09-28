@@ -21,7 +21,7 @@
 
 
 <details>
-  <summary>En un IDE con interpretador de Python</summary>
+  <summary>En un IDE con compilador de Python</summary>
   <ol>
     <li>
       <a>Descargar toda la carpeta del ejercicio, o bien solo el archivo .py que se desea correr</a>
@@ -36,13 +36,17 @@
 </details>
 
 <details>
-  <summary>En un interpretador Online</summary>
+  <summary>En un compilador Online</summary>
   <ol>
     <li>
-      <a>Descargar toda la carpeta del ejercicio, o bien solo el archivo .py que se desea correr y cargarlo en el interpretador online</a>
-      <ul>
-        <li><a>También se puede copiar cada archivo y copiarlo en el interpretador</a></li>
-      </ul>
+      <a>Descargar toda la carpeta del ejercicio, o bien solo el archivo .py que se desea correr</a>
+    </li>
+    <li>
+      <a>Abrir un compilador online</a>
+       <ul>
+        <li><a>https://www.programiz.com/python-programming/online-compiler/</a></li>
+        <li><a>https://replit.com</a></li>       
+       </ul>
     </li>
     <li>
       <a>Abrir el archivo en el IDE (Ej. Visual Studio)<a/>
@@ -52,6 +56,13 @@
     </li>
   </ol>
 </details>
+
+y cargarlo en el interpretador online
+
+
+
+
+
 
 
 
