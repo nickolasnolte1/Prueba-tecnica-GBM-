@@ -5,7 +5,7 @@
   <ol>
     <li>
       <a>Descargar toda la carpeta del ejercicio, o bien solo el archivo .py que se desea correr</a>
-            <a>Descargar toda la carpeta del ejercicio, o bien solo el archivo .py que se desea correr</a>
+      <a>PPPPPPPP</a>
       
       <a>Abrir la terminal o Command Prompt (CMD) de la computadora<a/>
         
