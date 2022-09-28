@@ -6,10 +6,10 @@
     <li>
       <a>Descargar toda la carpeta del ejercicio, o bien solo el archivo .py que se desea correr</a>
     </li>
-    
     <li>
       <a>Abrir la terminal o Command Prompt (CMD) de la computadora<a/>
-    </li>  
+    </li>
+    
       
     
 
