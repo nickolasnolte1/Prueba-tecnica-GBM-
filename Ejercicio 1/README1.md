@@ -5,30 +5,7 @@
   <summary>En Terminal</summary>
   <ol>
     <li>
-      <a>Descargar el archivo toda la carpeta con el ejercicio, o bien solo el archivo .py</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-1. Descargar el único archivo .py
-
-2. Abrirlo en una aplicación que tenga interpretador de Python. (Ej. Visual Studio)
-
-3. 
+      <a>Descargar toda la carpeta del ejercicio, o bien solo el archivo .py que se desea correr</a>
+      <a>Abrir la terminal o Command Prompt (CMD) de la computadora<a/>
+      <a>Utilizando el comando "cd" en la terminal, dirigirse al directorio donde se encuentra el archivo</a>
+      <a>Ingresar el comando `python3 "nombre del archivo" ,py` </a>
