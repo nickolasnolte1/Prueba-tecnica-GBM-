@@ -11,5 +11,6 @@
         
       <a>Utilizando el comando "cd" en la terminal, dirigirse al directorio donde se encuentra el archivo</a>
         
-      <a>Ingresar el comando `python3 nombre del archivo ,py` </a>
+      <a>Ingresar el comando python3 + nombre del archivo.py </a>
     </li>
+  </ol>
