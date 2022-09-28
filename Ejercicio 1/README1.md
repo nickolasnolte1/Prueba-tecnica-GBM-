@@ -30,7 +30,7 @@
       <a>Abrir el archivo en el IDE (Ej. Visual Studio)<a/>
     </li>
     <li>
-      <a>Correrlo, presionando el botón de "RUN"</a>
+      <a>Correr el código, presionando el botón de "RUN"</a>
     </li>
   </ol>
 </details>
@@ -49,15 +49,11 @@
        </ul>
     </li>
     <li>
-      <a>Abrir el archivo en el IDE (Ej. Visual Studio)<a/>
-    </li>
-    <li>
-      <a>Correrlo, presionando el botón de "RUN"</a>
+      <a>Correr el código, presionando el botón de "RUN"</a>
     </li>
   </ol>
 </details>
 
-y cargarlo en el interpretador online
 
 
 
