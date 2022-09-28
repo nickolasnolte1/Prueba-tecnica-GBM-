@@ -8,6 +8,7 @@ Desafío de código en Python
 ## Información Adicional
 
 **El lenguaje utilizado para la resolución de los ejercicios es Python 3.**
+
 **Cada carpeta contiene un archivo .txt con las instrucciones del problema, un archivo .py con la resolución y un archivo .md con las instrucciones para poder correr el código. 
 
 
