@@ -27,13 +27,10 @@
       <a>Descargar toda la carpeta del ejercicio, o bien solo el archivo .py que se desea correr</a>
     </li>
     <li>
-      <a>Abrir el archivo en el IDE<a/>
+      <a>Abrir el archivo en el IDE (Ej. Visual Studio)<a/>
     </li>
     <li>
       <a>Correrlo, presionando el botón de "RUN"</a>
-    </li>
-    <li>
-      <a>Ingresar el comando "python3 nombre_del_archivo.py"</a>
     </li>
   </ol>
 </details>
