@@ -14,7 +14,8 @@
     </li>
     <li>
       <a>Ingresar el comando 
-        `python3 nombre del archivo.py` </a>
+        `python3 nombre del archivo.py`
+      </a>
     </li>
     
       
