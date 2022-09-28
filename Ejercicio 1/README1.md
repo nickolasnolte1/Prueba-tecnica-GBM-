@@ -34,3 +34,7 @@
     </li>
   </ol>
 </details>
+
+
+
+~ NOTA: si se desan correr las pruebas unitarias, **ES NECESARIO** descargar la carpeta completa del ejercicio y ejecutar los archivos con las pruebas de la misma manera que se indica arriba.  
