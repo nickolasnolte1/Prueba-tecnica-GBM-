@@ -2,10 +2,6 @@ import unittest
 
 def palindrome(palabra): 
     return palabra == palabra[::-1] 
-print(palindrome("")) 
-print(palindrome("")) 
-print(palindrome(""))
-
 
 
 class TestPalindrome(unittest.TestCase):
