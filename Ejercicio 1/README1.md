@@ -62,6 +62,6 @@
 
 
 
-~ Nota: si se desan correr las pruebas unitarias, **ES NECESARIO** descargar la carpeta completa del ejercicio y ejecutar los archivos con las pruebas de la misma manera que se indica arriba.  
+~ Nota: si se desan correr las pruebas unitarias, **ES NECESARIO** descargar la carpeta completa del ejercicio y ejecutar los archivos con las  pruebas de la misma manera que se indica arriba.  
 
 ~Nota: si no se tiene instalado Python, descargar e instalar la última versión en el siguiente enlace: [https://www.python.org/downloads/](https://www.python.org/downloads/)
