@@ -7,3 +7,5 @@ Ejemplo ANA se puede leer al derecho y al revés y significa lo mismo.
 
 ● Punto extra - No puede usar ciclos
 ● Punto extra - No más de 5 líneas de código
+
+En este caso, se verificará si la palabra el palíndorma o no. 

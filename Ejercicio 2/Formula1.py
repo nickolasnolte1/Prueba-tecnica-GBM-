@@ -8,6 +8,8 @@ for i in range(G):
 
 S = int(input("\n> Ingrese cuántos sistemas de puntaje hay: ")) #Cuántos sistemas de puntaje hay. 
 
+print("(\nTomar en cuenta que el primero número que se introduzca, corresponde a la cantidad de pilotos que\n reciben puntos y el resto de datos corresponden a los puntos que recibe cada posición de la carrera.)")
+
 # Lee los sistemas de puntaje
 sistemas_puntaje = [] #inicializa una lista vacía.
 for i in range(S): # itera a través de la cantidad de sistemas de puntuación (S), leyendo los datos de cada uno.
