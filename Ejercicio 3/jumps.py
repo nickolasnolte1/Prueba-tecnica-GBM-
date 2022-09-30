@@ -13,5 +13,4 @@ def jumps(x):
 t = int(input("\nIngrese el número de test cases: ")) # El número de test cases
 for i in range(t):
     x = int(input("\nIngrese el punto de destino: ")) # El punto de destino
-    print("El número mínimo de saltos es: ", jumps(x)) # imprimir el número mínimo de saltos
-
+    print("El número mínimo de saltos para llegar al punto de destino es: ", jumps(x)) # imprimir el número mínimo de saltos
