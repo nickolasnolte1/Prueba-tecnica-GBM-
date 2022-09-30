@@ -1,9 +1,9 @@
 G = int(input("> Ingrese el número de carreras: ")) #número de carreras
 P = int(input("> Ingrese el número de pilotos en cada carrera: ")) #número de pilotos
 
-# Resultados de cada carrera
+# Almacena resultados de cada carrera
 resultados = []
-for i in range(G):
+for i in range(G): #itera según la cantidad de carreras que se haya ingresado. 
     resultados.append([int(x) for x in input("\n> Ingrese los resultados de cada carrera: ").split()])
 
 S = int(input("\n> Ingrese cuántos sistemas de puntaje hay: ")) #Cuántos sistemas de puntaje hay. 
@@ -18,8 +18,7 @@ for i in range(S): # itera a través de la cantidad de sistemas de puntuación (
 
 # Calcular los puntos de los pilotos con cada sistema
 for K, puntos in sistemas_puntaje:
-    #inicializa los puntos de los pilotos en 0
-    puntos_piloto = [0]*P
+    puntos_piloto = [0]*P #inicializa los puntos de los pilotos en 0
     
     #Agrega los puntos a los pilotos después de cada carrera.
     for race in resultados:
