@@ -8,7 +8,7 @@ for i in range(G): #itera según la cantidad de carreras que se haya ingresado.
 
 S = int(input("\n> Ingrese cuántos sistemas de puntaje hay: ")) #Cuántos sistemas de puntaje hay. 
 
-print("(\nTomar en cuenta que el primero número que se introduzca, corresponde a la cantidad de pilotos que\n reciben puntos y el resto de datos corresponden a los puntos que recibe cada posición de la carrera.)")
+print("\n(Tomar en cuenta que el primero número que se introduzca, corresponde a la cantidad de pilotos que\n reciben puntos y el resto de datos corresponden a los puntos que recibe cada posición de la carrera.)")
 
 # Lee los sistemas de puntaje
 sistemas_puntaje = [] #inicializa una lista vacía.
@@ -23,7 +23,7 @@ for K, puntos in sistemas_puntaje:
     #Agrega los puntos a los pilotos después de cada carrera.
     for race in resultados:
         for i in range(K):
-            puntos_piloto[race[i]-1] = puntos[i] 
+            puntos_piloto[race[i]-1] = puntos
     
     #Busca la mayor cantidad de puntos acumulados
     max_puntos = max(puntos_piloto)
@@ -31,5 +31,5 @@ for K, puntos in sistemas_puntaje:
     #busca a qué piloto corresponden esos puntos
     max_pilotos = [i+1 for i in range(P) if puntos_piloto[i] == max_puntos]
     
-    #Imprimir el/los pilotos con más puntos
+    #imprime la lista "max_pilotos" como una cadena de texto, separando los elementos con espacios.
     print(' '.join(str(x) for x in max_pilotos))
