@@ -1,25 +1,34 @@
-G = int(input("Ingrese el número de Grand Prix: ")) # número de GP
-P = int(input("Ingrese el número de pilotos: ")) # numero de pilotos
+G = int(input("> Ingrese el número de carreras: ")) #número de carreras
+P = int(input("> Ingrese el número de pilotos en cada carrera: ")) #número de pilotos
 
-#Crea un diccionario vacío para guardar los puntos de cada piloto
-points = {}
-for i in range(1, P+1):
-    points[i] = 0
-
-
-#Para cada GP, agregar los puntos de cada piloto al diccionario
+# Resultados de cada carrera
+resultados = []
 for i in range(G):
-    order = input().split()
-    for j in range(P):
-        points[j+1] += int(order[j])
+    resultados.append([int(x) for x in input("\n> Ingrese los resultados de cada carrera: ").split()])
 
-#Encontrar el número máximo de puntos
-max_points = 0
-for i in range(1, P+1):
-    if points[i] > max_points:
-        max_points = points[i]
+S = int(input("\n> Ingrese cuántos sistemas de puntaje hay: ")) #Cuántos sistemas de puntaje hay. 
 
-#Imprimir la lista de pilotos con el mayor número de puntos
-for i in range(1, P+1):
-    if points[i] == max_points:
-        print(i, end=" ")
+# Lee los sistemas de puntaje
+sistemas_puntaje = [] #inicializa una lista vacía.
+for i in range(S): # itera a través de la cantidad de sistemas de puntuación (S), leyendo los datos de cada uno.
+    K, puntos = [int(x) for x in input("\n> Ingrese uno de los sistemas de puntaje: ").split()[:2]] # toma los datos de entrada y los separa en dos listas: una con la cantidad de pilotos que reciben puntos (K) y otra con los puntos que recibe cada uno.
+    sistemas_puntaje.append([K, puntos]) # agrega estas dos listas a la lista inicial.
+
+# Calcular los puntos de los pilotos con cada sistema
+for K, puntos in sistemas_puntaje:
+    #inicializa los puntos de los pilotos en 0
+    puntos_piloto = [0]*P
+    
+    #Agrega los puntos a los pilotos después de cada carrera.
+    for race in resultados:
+        for i in range(K):
+            puntos_piloto[race[i]-1] = puntos[i] 
+    
+    #Busca la mayor cantidad de puntos acumulados
+    max_puntos = max(puntos_piloto)
+    
+    #busca a qué piloto corresponden esos puntos
+    max_pilotos = [i+1 for i in range(P) if puntos_piloto[i] == max_puntos]
+    
+    #Imprimir el/los pilotos con más puntos
+    print(' '.join(str(x) for x in max_pilotos))

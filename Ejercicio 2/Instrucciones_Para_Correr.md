@@ -62,6 +62,6 @@
 
 
 
-~ **Nota:** si se desan correr las pruebas unitarias, **ES NECESARIO** descargar la carpeta completa del ejercicio y ejecutar los archivos con las pruebas de la misma manera que se indica arriba.  
+~ **Nota:** No es posible realizar una prueba unitaria para este programa debido a que el programa no tiene una función que pueda ser llamada y que devuelva un valor. El programa simplemente toma una serie de datos de entrada y luego los procesa.
 
 ~ **Nota:** si no se tiene instalado Python, descargar e instalar la última versión en el siguiente enlace: [https://www.python.org/downloads/](https://www.python.org/downloads/)
