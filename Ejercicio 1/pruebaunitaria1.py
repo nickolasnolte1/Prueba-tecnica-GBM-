@@ -3,7 +3,6 @@ import unittest
 def palindrome(palabra): 
     return palabra == palabra[::-1] 
 
-
 class TestPalindrome(unittest.TestCase):
     def test_palindrome(self):
         self.assertTrue(palindrome("oso"))

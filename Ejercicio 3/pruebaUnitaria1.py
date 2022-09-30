@@ -1,24 +1,26 @@
 import unittest
 import jumps
- 
-class TestMinJumps(unittest.TestCase):
-    def test_case_1(self):
+
+class Test(unittest.TestCase):
+    def test_jumps_1(self):
+        x = 4
+        result = 3
+        self.assertEqual(jumps(x), result)
+
+    def test_jumps_2(self):
+        x = 5
+        result = 4
+        self.assertEqual(jumps(x), result)
+
+    def test_jumps_3(self):
         x = 6
-        expected = 2
-        result = minJumps(x)
-        self.assertEqual(expected, result)
- 
-    def test_case_2(self):
-        x = 10
-        expected = 3
-        result = minJumps(x)
-        self.assertEqual(expected, result)
- 
-    def test_case_3(self):
-        x = 15
-        expected = 4
-        result = minJumps(x)
-        self.assertEqual(expected, result)
- 
-if __name__ == '__main__':
+        result = 4
+        self.assertEqual(jumps(x), result)
+
+    def test_jumps_4(self):
+        x = 7
+        result = 5
+        self.assertEqual(jumps(x), result)
+
+if __name__ == "__main__":
     unittest.main()

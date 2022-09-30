@@ -9,20 +9,16 @@
   One rule modified for the 2010 season was the distribution of points in each Grand Prix.
   Since 2003, the scoring rule rewarded the top eight pilots, according to the following table:
 
- -------------------------------------
-|Place	1	2	3	4	5	6	7	8 |
-|Points	10	8	6	5	4	3	2	1 |
- -------------------------------------
+Pilot	  | 1st	| 2nd	| 3rd	| 4th	| 5th	| 6th	| 7th	| 8th
+Points	| 10	| 8	  | 6	  | 5	  | 4	  | 3	  | 2	  | 1
 
 
 
 ● That is, the winning driver received 10 points, second place received 8 points, and so on. In the 2010 season the 
   top ten will receive points, obeying the following table:
 
- ----------------------------------------------
-|Place	1	2	3	4	5	6	7	8   9   10 | 
-|Points	25	18	15	12	10	8	6	4   2   1  |
- ----------------------------------------------
+Pilot	  | 1st	| 2nd	| 3rd	| 4th	| 5th	| 6th	| 7th	| 8th |9t  |10th
+Points	| 25	| 18	| 15	| 12	| 10	| 8	  | 6	  | 4   | 2  | 1
 
 
 ● The change in the scoring system led to much speculation about what would have been the effect to the World Championship 
